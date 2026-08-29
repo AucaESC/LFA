@@ -1551,36 +1551,35 @@ Significa:
 
 Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
-
-* [ ] O que é um **alfabeto `Σ`**;
-
-* [ ] O que é uma **cadeia**;
-
-* [ ] O que significa **`ε`**;
-
-* [ ] Por que **`|ε| = 0`**;
-
-* [ ] O que é um **prefixo**;
-
-* [ ] O que é um **sufixo**;
-
-* [ ] O que significa **`Σ*`**;
-
-* [ ] Se `Σ*` possui limite de tamanho;
-
-* [ ] O que é uma **linguagem formal `L`**;
-
-* [ ] O que significa **`L ⊆ Σ*`**;
-
-* [ ] O que é uma **gramática formal**;
-
-* [ ] O que são **terminais e não terminais**;
-
-* [ ] O que é uma **regra de produção**;
-
-* [ ] Como ler **`S → aS | ε`**;
-
-* [ ] Como gerar palavras usando uma gramática.
+* [ ] O que é um **alfabeto `Σ`**; — conjunto finito e não vazio de símbolos.
+      
+* [ ] O que é uma **cadeia**; — sequência finita de símbolos do alfabeto.
+      
+* [ ] O que significa **`ε`**; — a cadeia vazia, sem símbolos.
+      
+* [ ] Por que **`|ε| = 0`**; — porque `|x|` mede o comprimento da cadeia, e `ε` não tem símbolos.
+    
+* [ ] O que é um **prefixo**; — parte inicial de uma cadeia, removendo zero ou mais símbolos do final.
+      
+* [ ] O que é um **sufixo**; — parte final de uma cadeia, removendo zero ou mais símbolos do início.
+      
+* [ ] O que significa **`Σ*`**; — conjunto de todas as cadeias possíveis sobre `Σ`, incluindo `ε`.
+      
+* [ ] Se `Σ*` possui limite de tamanho; — não, é infinito.
+      
+* [ ] O que é uma **linguagem formal `L`**; — um conjunto de cadeias.
+      
+* [ ] O que significa **`L ⊆ Σ*`**; — toda cadeia de `L` é formada por símbolos de `Σ`.
+      
+* [ ] O que é uma **gramática formal**; — conjunto de regras que descreve como gerar as cadeias de uma linguagem.
+      
+* [ ] O que são **terminais e não terminais**; — terminais formam a cadeia final; não terminais são substituídos por regras até sobrarem só terminais.
+      
+* [ ] O que é uma **regra de produção**; — regra no formato `A → β` que indica como substituir um não terminal.
+      
+* [ ] Como ler **`S → aS | ε`**; — "S pode virar `aS` ou pode virar `ε`" (o `|` significa "ou").
+      
+* [ ] Como gerar palavras usando uma gramática. — aplicar as regras repetidamente a partir do símbolo inicial até restarem apenas terminais.
 
 
 ---
