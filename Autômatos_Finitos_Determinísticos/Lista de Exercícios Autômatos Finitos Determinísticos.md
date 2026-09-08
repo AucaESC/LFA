@@ -11,12 +11,11 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Turma | |
-| Data | |
-| Integrante 1 | |
-| Integrante 2 | |
-| Integrante 3 | |
-| Integrante 4 | |
+| Turma |Ciência da computação n1|
+| Data |08/09/2026|
+| Integrante 1 |Guilherme Lacerda Ricardo|
+| Integrante 2 |Cauã Eduardo Silva de Carvalho Mendes|
+| Integrante 3 |Davi Sobral Cavalcante Lacerda|
 
 ## Orientações
 
